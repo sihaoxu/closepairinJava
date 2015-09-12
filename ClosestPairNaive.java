@@ -43,7 +43,7 @@ public class ClosestPairNaive {
     	}
     	print=true;
     	if(print)
-    		System.out.println("NAIVE"+x.toString()+y.toString()+minDis );
+    		System.out.println("NAIVE "+x.toString()+" "+y.toString()+" "+minDis );
 	// if (print)
 	//   System.out.println("NAIVE " + ...);
     }
