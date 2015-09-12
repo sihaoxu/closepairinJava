@@ -96,7 +96,7 @@ public class ClosestPairDC {
         	}
         }
        if(print)
-     		System.out.println("DC"+x.toString()+y.toString()+minDis );
+     		System.out.println("DC "+x.toString()+" "+y.toString()+" "+minDis );
 	// if (print)
 	//   System.out.println("DC " + ...);
     }
