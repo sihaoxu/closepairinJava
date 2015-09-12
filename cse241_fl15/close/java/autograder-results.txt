@@ -1,84 +1,88 @@
-*** RUNNING PRE-TURNIN TESTS ON 2015-09-12 15:12:33 CDT ***
+*** RUNNING PRE-TURNIN TESTS ON 2015-09-12 16:13:52 CDT ***
 * Language is Java
 
 * Running test #1
 * Arguments: @57
 * checking naive result... 
-ERROR: no result printed
+OK
 * checking D&C result... 
-ERROR: no result printed
+reported distance 39.29377 does not match expected distance 21.95450
+ERROR validating (-26787, 29) (-26749, 19) 39.293765408777
 --- FAILED test #1
 
 * Running test #2
 * Arguments: @421
 * checking naive result... 
-ERROR: no result printed
+OK
 * checking D&C result... 
-ERROR: no result printed
---- FAILED test #2
+OK
++++ PASSED test #2
 
 * Running test #3
 * Arguments: @3216
 * checking naive result... 
-ERROR: no result printed
+OK
 * checking D&C result... 
-ERROR: no result printed
+reported distance 9.84886 does not match expected distance 5.00000
+ERROR validating (102235, 2061) (102244, 2065) 9.848857801796104
 --- FAILED test #3
 
 * Running test #4
 * Arguments: @8192
 * checking naive result... 
-ERROR: no result printed
+OK
 * checking D&C result... 
-ERROR: no result printed
+reported distance 4.12311 does not match expected distance 1.00000
+ERROR validating (68999, 4882) (69000, 4886) 4.123105625617661
 --- FAILED test #4
 
 * Running test #5
 * Arguments: @17436
 * checking naive result... 
-ERROR: no result printed
+OK
 * checking D&C result... 
-ERROR: no result printed
---- FAILED test #5
+OK
++++ PASSED test #5
 
 * Running test #6
 * Arguments: @21213
 * checking naive result... 
-ERROR: no result printed
+OK
 * checking D&C result... 
-ERROR: no result printed
+reported distance 5.00000 does not match expected distance 4.00000
+ERROR validating (360623, 19920) (360626, 19916) 5.0
 --- FAILED test #6
 
 * Running test #7
 * Arguments: close/zero-case.txt
 * checking naive result... 
-ERROR: no result printed
+OK
 * checking D&C result... 
-ERROR: no result printed
---- FAILED test #7
+OK
++++ PASSED test #7
 
 * Running test #8
 * Arguments: close/y-case-1.txt
 * checking naive result... 
-ERROR: no result printed
+OK
 * checking D&C result... 
-ERROR: no result printed
---- FAILED test #8
+OK
++++ PASSED test #8
 
 * Running test #9
 * Arguments: close/y-case-2.txt
 * checking naive result... 
-ERROR: no result printed
+OK
 * checking D&C result... 
-ERROR: no result printed
---- FAILED test #9
+OK
++++ PASSED test #9
 
 * Running test #10
 * Arguments: close/stress.txt
 * checking naive result... 
-ERROR: no result printed
+OK
 * checking D&C result... 
-ERROR: no result printed
---- FAILED test #10
+OK
++++ PASSED test #10
 
-* Passed 0/10 tests
+* Passed 6/10 tests
