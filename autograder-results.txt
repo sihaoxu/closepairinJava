@@ -1,4 +1,4 @@
-*** RUNNING PRE-TURNIN TESTS ON 2015-09-12 11:12:39 CDT ***
+*** RUNNING PRE-TURNIN TESTS ON 2015-09-12 12:12:24 CDT ***
 * Language is Java
 
 * Running test #1
