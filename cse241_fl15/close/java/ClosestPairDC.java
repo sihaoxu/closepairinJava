@@ -58,13 +58,16 @@ public class ClosestPairDC {
         }
         XYPoint YL[]=new XYPoint[mid+1];
         XYPoint YR[]=new XYPoint[nPoints-mid-1];
-        for(int i=0;i<=mid;i++){
-     	     YL[i]=new XYPoint();
-     	     YL[i]=pointsByY[i];
-        }
-        for(int i=mid+1,j=0;i<=nPoints-1;i++,j++){
-     	     YR[j]=new XYPoint();
-     	     YR[j]=pointsByY[i];
+        int z=0,p=0;
+        for(int o=0;o<nPoints;o++){
+        	if(pointsByY[o].isLeftOf(midPointNext)){
+        		YL[z]=pointsByY[o];
+        		z++;
+        	}
+        	else{
+        		YR[p]=pointsByY[o];
+        		p++;
+        	}
         }
         findClosestPair(XL,YL,false);
         findClosestPair(XR,YR,false);
