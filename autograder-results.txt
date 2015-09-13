@@ -1,4 +1,4 @@
-*** RUNNING PRE-TURNIN TESTS ON 2015-09-13 09:17:27 CDT ***
+*** RUNNING PRE-TURNIN TESTS ON 2015-09-13 10:17:08 CDT ***
 * Language is Java
 
 * Running test #1
@@ -6,9 +6,8 @@
 * checking naive result... 
 OK
 * checking D&C result... 
-reported distance 39.29377 does not match expected distance 21.95450
-ERROR validating (-26787, 29) (-26749, 19) 39.293765408777
---- FAILED test #1
+OK
++++ PASSED test #1
 
 * Running test #2
 * Arguments: @421
@@ -23,18 +22,16 @@ OK
 * checking naive result... 
 OK
 * checking D&C result... 
-reported distance 9.84886 does not match expected distance 5.00000
-ERROR validating (102235, 2061) (102244, 2065) 9.848857801796104
---- FAILED test #3
+OK
++++ PASSED test #3
 
 * Running test #4
 * Arguments: @8192
 * checking naive result... 
 OK
 * checking D&C result... 
-reported distance 4.12311 does not match expected distance 1.00000
-ERROR validating (68999, 4882) (69000, 4886) 4.123105625617661
---- FAILED test #4
+OK
++++ PASSED test #4
 
 * Running test #5
 * Arguments: @17436
@@ -49,9 +46,8 @@ OK
 * checking naive result... 
 OK
 * checking D&C result... 
-reported distance 5.00000 does not match expected distance 4.00000
-ERROR validating (360623, 19920) (360626, 19916) 5.0
---- FAILED test #6
+OK
++++ PASSED test #6
 
 * Running test #7
 * Arguments: close/zero-case.txt
@@ -85,4 +81,4 @@ OK
 OK
 +++ PASSED test #10
 
-* Passed 6/10 tests
+* Passed 10/10 tests
